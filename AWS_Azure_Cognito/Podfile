@@ -1,0 +1,7 @@
+target 'AWS_Azure_Cognito' do
+  use_frameworks!
+
+  pod 'AWSCognitoAuth'
+  pod 'AWSUserPoolsSignIn'
+
+end

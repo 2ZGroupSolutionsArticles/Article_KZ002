@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EAECB3520FE58F6006C5898 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAECB3420FE58F6006C5898 /* AppDelegate.swift */; };
+		4EAECB3720FE58F6006C5898 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAECB3620FE58F6006C5898 /* ViewController.swift */; };
+		4EAECB3A20FE58F6006C5898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAECB3820FE58F6006C5898 /* Main.storyboard */; };
+		4EAECB3C20FE58F8006C5898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EAECB3B20FE58F8006C5898 /* Assets.xcassets */; };
+		4EAECB3F20FE58F8006C5898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EAECB3D20FE58F8006C5898 /* LaunchScreen.storyboard */; };
+		4EAECB4720FE5A25006C5898 /* CognitoAuthHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAECB4620FE5A25006C5898 /* CognitoAuthHelper.swift */; };
+		AEF69C1D754FB21E1278BA27 /* Pods_AWS_Azure_Cognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F17FAE6DC32FCDABAD73EED0 /* Pods_AWS_Azure_Cognito.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DF48B79FA2D0E26F7501305 /* Pods-AWS_Azure_Cognito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWS_Azure_Cognito.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWS_Azure_Cognito/Pods-AWS_Azure_Cognito.release.xcconfig"; sourceTree = "<group>"; };
+		4EAECB3120FE58F6006C5898 /* AWS_Azure_Cognito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWS_Azure_Cognito.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EAECB3420FE58F6006C5898 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4EAECB3620FE58F6006C5898 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EAECB3920FE58F6006C5898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4EAECB3B20FE58F8006C5898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4EAECB3E20FE58F8006C5898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4EAECB4020FE58F8006C5898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EAECB4620FE5A25006C5898 /* CognitoAuthHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitoAuthHelper.swift; sourceTree = "<group>"; };
+		9EA7461B59FED5DA053CC552 /* Pods-AWS_Azure_Cognito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWS_Azure_Cognito.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWS_Azure_Cognito/Pods-AWS_Azure_Cognito.debug.xcconfig"; sourceTree = "<group>"; };
+		F17FAE6DC32FCDABAD73EED0 /* Pods_AWS_Azure_Cognito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWS_Azure_Cognito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EAECB2E20FE58F6006C5898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF69C1D754FB21E1278BA27 /* Pods_AWS_Azure_Cognito.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EAECB2820FE58F6006C5898 = {
+			isa = PBXGroup;
+			children = (
+				4EAECB3320FE58F6006C5898 /* AWS_Azure_Cognito */,
+				4EAECB3220FE58F6006C5898 /* Products */,
+				697B44100EAF5C4A360D1512 /* Pods */,
+				B71E0003D52CD03B3C688F7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4EAECB3220FE58F6006C5898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EAECB3120FE58F6006C5898 /* AWS_Azure_Cognito.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EAECB3320FE58F6006C5898 /* AWS_Azure_Cognito */ = {
+			isa = PBXGroup;
+			children = (
+				4EAECB3420FE58F6006C5898 /* AppDelegate.swift */,
+				4EAECB3620FE58F6006C5898 /* ViewController.swift */,
+				4EAECB4620FE5A25006C5898 /* CognitoAuthHelper.swift */,
+				4EAECB3B20FE58F8006C5898 /* Assets.xcassets */,
+				4EAECB3D20FE58F8006C5898 /* LaunchScreen.storyboard */,
+				4EAECB3820FE58F6006C5898 /* Main.storyboard */,
+				4EAECB4020FE58F8006C5898 /* Info.plist */,
+			);
+			path = AWS_Azure_Cognito;
+			sourceTree = "<group>";
+		};
+		697B44100EAF5C4A360D1512 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EA7461B59FED5DA053CC552 /* Pods-AWS_Azure_Cognito.debug.xcconfig */,
+				1DF48B79FA2D0E26F7501305 /* Pods-AWS_Azure_Cognito.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B71E0003D52CD03B3C688F7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F17FAE6DC32FCDABAD73EED0 /* Pods_AWS_Azure_Cognito.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EAECB3020FE58F6006C5898 /* AWS_Azure_Cognito */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EAECB4320FE58F8006C5898 /* Build configuration list for PBXNativeTarget "AWS_Azure_Cognito" */;
+			buildPhases = (
+				8A68042116F977E52DB063AE /* [CP] Check Pods Manifest.lock */,
+				4EAECB2D20FE58F6006C5898 /* Sources */,
+				4EAECB2E20FE58F6006C5898 /* Frameworks */,
+				4EAECB2F20FE58F6006C5898 /* Resources */,
+				F92C722653C9D2B97E554A41 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWS_Azure_Cognito;
+			productName = AWS_Azure_Cognito;
+			productReference = 4EAECB3120FE58F6006C5898 /* AWS_Azure_Cognito.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EAECB2920FE58F6006C5898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Sezorus;
+				TargetAttributes = {
+					4EAECB3020FE58F6006C5898 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 4EAECB2C20FE58F6006C5898 /* Build configuration list for PBXProject "AWS_Azure_Cognito" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4EAECB2820FE58F6006C5898;
+			productRefGroup = 4EAECB3220FE58F6006C5898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EAECB3020FE58F6006C5898 /* AWS_Azure_Cognito */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EAECB2F20FE58F6006C5898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAECB3F20FE58F8006C5898 /* LaunchScreen.storyboard in Resources */,
+				4EAECB3C20FE58F8006C5898 /* Assets.xcassets in Resources */,
+				4EAECB3A20FE58F6006C5898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A68042116F977E52DB063AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AWS_Azure_Cognito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F92C722653C9D2B97E554A41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AWS_Azure_Cognito/Pods-AWS_Azure_Cognito-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoAuth/AWSCognitoAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProviderASF/AWSCognitoIdentityProviderASF.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProviderASF.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWS_Azure_Cognito/Pods-AWS_Azure_Cognito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EAECB2D20FE58F6006C5898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EAECB3720FE58F6006C5898 /* ViewController.swift in Sources */,
+				4EAECB4720FE5A25006C5898 /* CognitoAuthHelper.swift in Sources */,
+				4EAECB3520FE58F6006C5898 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EAECB3820FE58F6006C5898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EAECB3920FE58F6006C5898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4EAECB3D20FE58F8006C5898 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EAECB3E20FE58F8006C5898 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EAECB4120FE58F8006C5898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4EAECB4220FE58F8006C5898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EAECB4420FE58F8006C5898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA7461B59FED5DA053CC552 /* Pods-AWS_Azure_Cognito.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AWS_Azure_Cognito/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ks.AWS-Azure-Cognito";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4EAECB4520FE58F8006C5898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF48B79FA2D0E26F7501305 /* Pods-AWS_Azure_Cognito.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = AWS_Azure_Cognito/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ks.AWS-Azure-Cognito";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EAECB2C20FE58F6006C5898 /* Build configuration list for PBXProject "AWS_Azure_Cognito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAECB4120FE58F8006C5898 /* Debug */,
+				4EAECB4220FE58F8006C5898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EAECB4320FE58F8006C5898 /* Build configuration list for PBXNativeTarget "AWS_Azure_Cognito" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EAECB4420FE58F8006C5898 /* Debug */,
+				4EAECB4520FE58F8006C5898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EAECB2920FE58F6006C5898 /* Project object */;
+}
