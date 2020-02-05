@@ -4,7 +4,7 @@ This is the second part of the tutorial of how to setup AWS Cognito User and Ide
 
 [![](https://docs.aws.amazon.com/cognito/latest/developerguide/images/scenario-cup-cib.png)](https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-integrating-user-pools-with-identity-pools.html)
 
-Please refer to the [first part of the tutorial](https://github.com/SezorusArticles/Article_KZ001/blob/master/README.md) for more information and if you haven’t set up your Azure AD application or AWS Cognito User and Identity Pools.
+Please refer to the [first part of the tutorial](https://github.com/2ZGroupSolutionsArticles/Article_KZ001/blob/master/README.md) for more information and if you haven’t set up your Azure AD application or AWS Cognito User and Identity Pools.
 
 Assuming you have done all the setup in AWS and Azure, so now you should have all required information:
 
@@ -125,7 +125,7 @@ In this tutorial described the first option:
 
 Now your Info.plist file should contain AWS dictionary like on the image below:
 
-![](https://github.com/SezorusArticles/Article_KZ002/blob/master/Images/image2.png?raw=true)
+![](https://github.com/2ZGroupSolutionsArticles/Article_KZ002/blob/master/Images/image2.png?raw=true)
 
 Fill the corresponding keys by replacing _SETME_ with keys which you’ve prepared at the first part of the tutorial. To be sure that you set the correct keys to check the description for each key:
 
@@ -138,24 +138,24 @@ Fill the corresponding keys by replacing _SETME_ with keys which you’ve prepar
 4.  `AWSCognitoWebDomain` - [Amazon Cognito hosted domain](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-user-pools-assign-domain.html) for the address of your sign-up and sign-in webpages. You can also use own web address as a custom domain. See the [tutorial](https://github.com/SezorusArticles/Article_KZ001/blob/master/README.md) how to set Amazon Cognito hosted domain. An example of `AWSCognitoWebDomain` value: 
 https://ios-app-tutorial.auth.us-east-1.amazoncognito.com
 
-5.  `CognitoUserPoolAppClientId` and `CognitoUserPoolAppClientSecret` - your app client id and secret. See the [tutorial](https://github.com/SezorusArticles/Article_KZ001/blob/master/README.md) how to setup it.
+5.  `CognitoUserPoolAppClientId` and `CognitoUserPoolAppClientSecret` - your app client id and secret. See the [tutorial](https://github.com/2ZGroupSolutionsArticles/Article_KZ001/blob/master/README.md) how to setup it.
     
-6.  `CognitoUserPoolId` - id of your Cognito User Pool. See the [tutorial](https://github.com/SezorusArticles/Article_KZ001/blob/master/README.md) how to setup it.
+6.  `CognitoUserPoolId` - id of your Cognito User Pool. See the [tutorial](https://github.com/2ZGroupSolutionsArticles/Article_KZ001/blob/master/README.md) how to setup it.
     
-7.  `PoolId` - id of your Cognito Identity Pool. See the [tutorial](https://github.com/SezorusArticles/Article_KZ001/blob/master/README.md) how to setup it.
+7.  `PoolId` - id of your Cognito Identity Pool. See the [tutorial](https://github.com/2ZGroupSolutionsArticles/Article_KZ001/blob/master/README.md) how to setup it.
 
  After all your Info.plist file should looks similar to this:
 
   
 
-![](https://github.com/SezorusArticles/Article_KZ002/blob/master/Images/image3.png?raw=true)   
+![](https://github.com/2ZGroupSolutionsArticles/Article_KZ002/blob/master/Images/image3.png?raw=true)   
 #### 3. Configure Custom URL Scheme
 
 After setup your `Info.plist` you need to add corresponding URL Schemes to your application (the URL which was set for `CognitoAuthSignInRedirectUri` and `CognitoAuthSignOutRedirectUri`). Because in the tutorial same scheme was set for both `SignICognitoAuthSignInRedirectUrinRedirectUri` and `CognitoAuthSignOutRedirectUri` we need to set up in Xcode project only one custom URL scheme. If you’ve set up different Callback URL for sign in and sign out - you need to add both.
 
 To register your scheme open Info Tab of your target settings. Update the URL Types section to declare all of the URL schemes for `CognitoAuthSignInRedirectUri` and `CognitoAuthSignOutRedirectUri`. In this tutorial both `CognitoAuthSignInRedirectUri` and `CognitoAuthSignOutRedirectUri` set to `iosappscheme://`. Here how which scheme looks in the Xcode settings:
 
-![](https://github.com/SezorusArticles/Article_KZ002/blob/master/Images/image1.png?raw=true)
+![](https://github.com/2ZGroupSolutionsArticles/Article_KZ002/blob/master/Images/image1.png?raw=true)
 
 #### 4.  Make corresponding changed in your source code
 
@@ -199,7 +199,7 @@ And handle `AWSCognitoAuthDelegate` method:
     cognitoAuth.signOut { (error:Error?) in
     }
 
- You can check the  [demo project](https://github.com/SezorusArticles/Article_KZ002/tree/master/AWS_Azure_Cognito), replace _SETME_ values in Info.plist file with own to make it work.
+ You can check the  [demo project](https://github.com/2ZGroupSolutionsArticles/Article_KZ002/tree/master/AWS_Azure_Cognito), replace _SETME_ values in Info.plist file with own to make it work.
  
 #### Additional Sources:
 
@@ -216,6 +216,6 @@ And handle `AWSCognitoAuthDelegate` method:
 
 Kseniia Zozulia
 
-Email: kseniiazozulia@sezorus.com
+Email: kseniiazozulia@2zgroup.net
 
 LinkedIn: [Kseniia Zozulia](https://www.linkedin.com/in/629bb187)
